@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./web3.min.js"></script>
+    <script type="text/javascript" src="./human_standard_token_abi.js"></script>
+    <script type="text/javascript" src="./erc20balance.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <div class="card box">
+        <div class="card-header">
+           <h5> Wardenswap Community Thailand</h5>
+        </div>
+        <h4> ! ถือ 100 wad เพื่อ join discord </h4>
+         !!! ผู้จัดทำไม่ใช่ทีม dev หรือนักพัฒนาเป็นเพียงแค่ warden holder ธรรมดาก็เท่านั้น
+        <br />
+        <div class="card-body">
+            <div class="col-md-12 text-center">
+                <img src="Discord.svg" class="Sicek "></img> 
+            </div>
+                <div class="col-md-12 text-center">
+                    <h4><span class="badge bg-secondary" id="output2" style="background-color:rgb(247, 247, 248);">Your Hold Token : </span></h4>  
+                    <button type="button" class=" btn btn-lg btn-block" onClick="getERC20Balance();"> 
+                        <img src="metamask.svg" class="logo" >  connect metamask</img> 
+                    </button>
+               </div>
+            </div>
+        </div>
+    </div>
+</body> 
+
+    <style>
+        body {background-color: rgb(22, 9, 80);}
+        h1   {color: blue;}
+        p    {color: red;}
+        .box{
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            }
+            .btn {
+                    background-color: DodgerBlue;
+                    border: none;
+                    color: white;
+                    padding: 16px 16px;
+                    font-size: 16px;
+                    cursor: pointer;
+                
+                 }
+             .logo {       
+                    width: 40px;
+                    height: 40px;
+                    
+                  }
+                  .Sicek {       
+                    width: 400px;
+                    height: 100px;
+                    
+                  }
+    </style>
+</html>
